@@ -7,6 +7,16 @@ This repository manages the public draft lifecycle for:
 
 The goal is to run this as an open, transparent, community-driven standard project with clear governance, versioning, public consultation, and reproducible publication to the web.
 
+## Vision
+
+We believe the next era of AI must belong to people, not platforms. OSARA and the AI Bill of Rights together define a future where every individual, enterprise, and government can operate trusted AI agents that are sovereign, portable, interoperable, and accountable by design.
+
+Our vision is to make this the global open standard for human-centered AI: a world where innovation moves fast without sacrificing dignity, privacy, labor rights, safety, or democratic control. We are building the technical and governance foundation for an AI ecosystem that is open, auditable, and fair for everyone.
+
+This is bigger than software. It is a shared mission to ensure AI amplifies human freedom and human potential at planetary scale.
+
+The time to define these rules is now, before private-sector defaults become the global rules of the game for everyone. Your help, contributions, and participation directly accelerate adoption of this open standard. The faster OSARA and the AI Bill of Rights are adopted, the stronger the expectation and obligation for major platforms and providers to comply with these principles.
+
 ## Leadership
 
 - **Primary Author / Lead Maintainer**: `@elkordym`
