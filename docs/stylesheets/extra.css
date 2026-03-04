@@ -1,17 +1,47 @@
+/* Professional typography and spacing */
+.md-content {
+  font-size: 0.95rem;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.md-typeset h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 0.35rem;
+}
+
+.md-typeset h3 {
+  margin-top: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.md-typeset p {
+  line-height: 1.65;
+}
+
 /* Render markdown tables as visible grid lines */
 table {
   border-collapse: collapse;
   width: 100%;
+  margin: 1rem 0 1.25rem;
 }
 
 th,
 td {
-  border: 1px solid #c7c7c7;
-  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  padding: 0.6rem 0.7rem;
   vertical-align: top;
   text-align: left;
 }
 
 thead th {
-  background: #f5f5f5;
+  background: #f3f4f6;
+  font-weight: 700;
 }
