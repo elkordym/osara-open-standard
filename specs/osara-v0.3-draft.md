@@ -46,6 +46,8 @@ The diagram below illustrates the full three-tier agent ecosystem — how P-Agen
 
 Figure 1 — OSARA Agent Ecosystem: Communication Flows and Authentication Chain
 
+![OSARA Agent Ecosystem Diagram](../assets/diagrams/osara-agent-ecosystem.png)
+
 ## 3.1 Diagram Key
 
 | Arrow Type | Meaning |
