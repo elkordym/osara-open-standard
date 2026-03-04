@@ -6,6 +6,8 @@
 - `prerelease`: integration/staging branch for approved pull requests
 - `feature/*`: short-lived working branches
 
+Only the repository owner may push to `main` directly. All other changes must arrive via pull request workflow.
+
 ## Default Flow
 
 1. Create `feature/*` from `prerelease`.

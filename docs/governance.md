@@ -2,10 +2,10 @@
 
 Project governance is defined in:
 
+- `AUTHORS.md`
 - `governance/CHARTER.md`
 - `governance/MAINTAINERS.md`
 - `governance/DECISION_RECORD_TEMPLATE.md`
-- `governance/COMMIT_POLICY.md`
 
 Community behavior and contribution process:
 
