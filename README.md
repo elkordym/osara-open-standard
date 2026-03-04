@@ -18,6 +18,7 @@ The goal is to run this as an open, transparent, community-driven standard proje
 - Source branch for publishing: `main`
 - Auto-deploy workflow: `.github/workflows/pages.yml`
 - Expected URL: [https://elkordym.github.io/osara-open-standard](https://elkordym.github.io/osara-open-standard)
+- Spec source of truth: `specs/` (synced into `docs/specs/` during docs build)
 
 ## Repository Structure
 
