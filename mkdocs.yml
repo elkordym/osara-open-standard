@@ -2,21 +2,21 @@ site_name: OSARA Open Standard
 site_description: Open Sovereign Agent Reference Architecture and AI Bill of Rights
 site_url: https://elkordym.github.io/osara-open-standard
 repo_url: https://github.com/elkordym/osara-open-standard
-docs_dir: .
+docs_dir: docs
 theme:
   name: mkdocs
 extra_css:
-  - docs/stylesheets/extra.css
+  - stylesheets/extra.css
 nav:
-  - Home: docs/index.md
-  - Getting Started: docs/getting-started.md
-  - Governance: docs/governance.md
-  - Branching Strategy: docs/BRANCHING_STRATEGY.md
-  - Community Communication: docs/COMMUNITY_COMMUNICATION.md
-  - Roadmap: docs/ROADMAP.md
-  - Versioning: docs/VERSIONING.md
-  - Release Process: docs/RELEASE_PROCESS.md
-  - GitHub Setup: docs/GITHUB_SETUP.md
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Governance: governance.md
+  - Branching Strategy: BRANCHING_STRATEGY.md
+  - Community Communication: COMMUNITY_COMMUNICATION.md
+  - Roadmap: ROADMAP.md
+  - Versioning: VERSIONING.md
+  - Release Process: RELEASE_PROCESS.md
+  - GitHub Setup: GITHUB_SETUP.md
   - Specifications:
       - OSARA v0.3 Draft: specs/osara-v0.3-draft.md
       - AI Bill of Rights v1.0 Draft: specs/ai-bill-of-rights-v1.0-draft.md

@@ -20,5 +20,8 @@ jobs:
       - name: Install docs dependencies
         run: pip install -r requirements-docs.txt
 
+      - name: Sync spec files into docs
+        run: python scripts/sync_specs.py
+
       - name: Build site
         run: mkdocs build --strict
