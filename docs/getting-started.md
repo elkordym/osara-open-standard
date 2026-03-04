@@ -2,8 +2,8 @@
 
 ## For Readers
 
-1. Read `specs/osara-v0.3-draft.md`
-2. Read `specs/ai-bill-of-rights-v1.0-draft.md`
+1. Read `specs/osara/current.md`
+2. Read `specs/ai-bill-of-rights/current.md`
 3. Compare technical and policy alignment via Annex cross-reference sections
 
 ## For Contributors

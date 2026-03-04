@@ -2,8 +2,8 @@
 
 This repository manages the public draft lifecycle for:
 
-- `specs/osara-v0.3-draft.md`
-- `specs/ai-bill-of-rights-v1.0-draft.md`
+- `specs/osara/current.md`
+- `specs/ai-bill-of-rights/current.md`
 
 The goal is to run this as an open, transparent, community-driven standard project with clear governance, versioning, public consultation, and reproducible publication to the web.
 
@@ -31,8 +31,8 @@ The goal is to run this as an open, transparent, community-driven standard proje
 
 ## Current Drafts
 
-- OSARA v0.3 (Public Comment Draft, March 2026)
-- AI Bill of Rights v1.0 (First Public Draft, March 2026)
+- OSARA current draft (`specs/osara/current.md`)
+- AI Bill of Rights current draft (`specs/ai-bill-of-rights/current.md`)
 
 ## Project Principles
 
