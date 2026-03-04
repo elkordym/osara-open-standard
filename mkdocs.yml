@@ -1,10 +1,12 @@
 site_name: OSARA Open Standard
 site_description: Open Sovereign Agent Reference Architecture and AI Bill of Rights
-site_url: https://YOUR_GITHUB_USERNAME.github.io/osara-open-standard
-repo_url: https://github.com/YOUR_GITHUB_USERNAME/osara-open-standard
+site_url: https://elkordym.github.io/osara-open-standard
+repo_url: https://github.com/elkordym/osara-open-standard
 docs_dir: .
 theme:
   name: mkdocs
+extra_css:
+  - docs/stylesheets/extra.css
 nav:
   - Home: docs/index.md
   - Getting Started: docs/getting-started.md

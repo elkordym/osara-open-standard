@@ -7,6 +7,18 @@ This repository manages the public draft lifecycle for:
 
 The goal is to run this as an open, transparent, community-driven standard project with clear governance, versioning, public consultation, and reproducible publication to the web.
 
+## Leadership
+
+- **Primary Author / Lead Maintainer**: `@elkordym`
+- **Chair, Open Source United (UN Open Source Community of Practice)**: `@elkordym`
+- **Future contributors**: Open Source United community members (see `AUTHORS.md`)
+
+## Documentation Website
+
+- Source branch for publishing: `main`
+- Auto-deploy workflow: `.github/workflows/pages.yml`
+- Expected URL: [https://elkordym.github.io/osara-open-standard](https://elkordym.github.io/osara-open-standard)
+
 ## Repository Structure
 
 - `specs/` canonical draft texts and released versions

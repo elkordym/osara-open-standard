@@ -17,8 +17,8 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install MkDocs
-        run: pip install mkdocs
+      - name: Install docs dependencies
+        run: pip install -r requirements-docs.txt
 
       - name: Build site
         run: mkdocs build --strict
