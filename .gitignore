@@ -1,0 +1,14 @@
+# Python / MkDocs
+site/
+__pycache__/
+.venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.cursor/
+
+# Local source documents
+*.docx
