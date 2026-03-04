@@ -1,0 +1,17 @@
+/* Render markdown tables as visible grid lines */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #c7c7c7;
+  padding: 0.5rem;
+  vertical-align: top;
+  text-align: left;
+}
+
+thead th {
+  background: #f5f5f5;
+}
