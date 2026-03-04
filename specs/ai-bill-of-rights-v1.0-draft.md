@@ -2,7 +2,6 @@
 
 > Source: AI_Bill_of_Rights_v1.0.docx
 
-
 The Artificial Intelligence
 
 Bill of Rights
@@ -36,10 +35,12 @@ This Bill of Rights does not seek to stop AI. It establishes that AI is permanen
 
 These rights are universal. They apply regardless of nationality, economic status, technical literacy, disability, age, or geography. No government, corporation, or AI system may diminish, suspend, or trade them away.
 
-Relationship to OSARA
+## Relationship to OSARA
+
 This Bill of Rights establishes the human rights and governance principles that the OSARA Open Sovereign Agent Reference Architecture operationalizes at the technical level. Where this document establishes a right, OSARA defines the mechanism that enforces it. The two documents are designed to be read and implemented together.
 
-Article I  Foundational Principles
+## Article I  Foundational Principles
+
 The values that govern every right and obligation in this document. In any ambiguity, interpret toward these principles.
 
 The provisions in this Article are foundational principles, not individually enforceable rights. They are the interpretive foundation for all subsequent articles. Any ambiguity in Articles II through VIII shall be resolved in the direction that best advances these principles.
@@ -52,16 +53,18 @@ The provisions in this Article are foundational principles, not individually enf
 | I.4 | AI shall not be used to manufacture disinformation, synthetic identity fraud, non-consensual intimate imagery, or content designed to manipulate democratic processes, electoral systems, or public opinion at scale. |
 | I.5 | The development of AI systems capable of unsupervised self-replication, autonomous self-modification, or recursive self-improvement without a human-in-the-loop oversight mechanism is prohibited without explicit international regulatory authorization. |
 
-Article II  Personal Ownership, Employment, and Autonomy
+## Article II  Personal Ownership, Employment, and Autonomy
+
 When a person is hired, their agent is hired with them. Human accountability and agent capability are inseparable.
 
-The Employment Model: Person and Agent as One
+### The Employment Model: Person and Agent as One
 
 Employment in the age of AI agents is not the replacement of humans by machines. It is the engagement of a human being together with their sovereign personal AI agent a unit that combines human judgment, accountability, and relationships with the scale, speed, and recall of their agent. When an organization hires a person, it engages both.
 
 The personal agent executes work on behalf of its owner within the organization. The human owner is the decision authority and bears full accountability for everything produced under their name. The organization's right is to manage the work to accept, reject, or request correction of outputs not to manage the agent. These are distinct and must not be confused.
 
-The Core Principle
+### The Core Principle
+
 An organization does not hire an agent. It does not license, own, configure, or instruct an agent. It hires a person and that person brings their agent as an extension of their own professional capability. The agent answers to its owner. The owner answers to the organization. The organization manages outputs and gives direction to the human. That chain is the foundation of the new employment relationship.
 
 | § | Right and Obligation |
@@ -78,10 +81,11 @@ An organization does not hire an agent. It does not license, own, configure, or 
 | 2.10 | Personal agents must act exclusively in the interest of their human owner. Any agent designed, modified, or covertly instructed to act against its owner's interests by any party, including its developer, platform provider, employing organization, or any government authority, is unlawful. |
 | 2.11 | The right to own and operate a personal AI agent may not be conditioned on the surrender of personal data, acceptance of surveillance, or agreement to terms that diminish any right in this document. |
 
-Article III  Safety, Oversight, and Accountability
+## Article III  Safety, Oversight, and Accountability
+
 AI agents are inspectable, auditable, and accountable. No agent operates above the law.
 
-Two Distinct Forms of Inspection
+### Two Distinct Forms of Inspection
 
 This article distinguishes two entirely separate forms of agent inspection. Compliance inspection is a routine technical process initiated by the owner, equivalent to a vehicle roadworthiness test. Law enforcement access is a separate process initiated by authorities when an individual is an active suspect in a criminal investigation. The rights and conditions governing each are different and must not be conflated.
 
@@ -95,7 +99,8 @@ This article distinguishes two entirely separate forms of agent inspection. Comp
 | 3.6 | Intentional tampering with, deletion of, or falsification of agent audit logs constitutes a criminal offense equivalent to the destruction of legal evidence. Penalties shall be defined by national law and shall include, at a minimum, temporary suspension of the right to operate an AI agent. |
 | 3.7 | An agent must not execute any action capable of causing harm to a person physically, financially, reputationally, or legally without an explicit, individually logged, and time-stamped human authorization for that specific action. No blanket or standing pre-authorization for harmful actions is valid. |
 
-Article IV  Interoperability, Portability, and Open Standards
+## Article IV  Interoperability, Portability, and Open Standards
+
 No person shall be locked into a platform, provider, or ecosystem against their will.
 
 | § | Right and Obligation |
@@ -110,10 +115,12 @@ No person shall be locked into a platform, provider, or ecosystem against their 
 | 4.8 | Proprietary elements are permitted in non-mandatory layers. AI model integrations, skill configurations, business logic, and workflow implementations may be proprietary, provided they do not override, wrap, replace, or obscure any mandatory open source component. The open source requirement applies to agent infrastructure, not to the AI model that powers it. Frontier AI models accessed via secure API remain subject to their own licensing terms. |
 | 4.9 | Any OSARA-certified inspection entity conducting an annual compliance inspection must verify open source compliance as part of the mandatory inspection scope. An agent that has substituted any mandatory open source component with a closed equivalent shall not receive a Health Certificate and shall enter restricted mode until full compliance is restored. |
 
-Why Open Source Is Not Optional
+### Why Open Source Is Not Optional
+
 An agent that cannot be audited cannot be trusted. The rights established in this Bill of Rights that an agent serves its owner, that logs cannot be falsified, that no hidden instructions work against the owner are unverifiable in a closed system. Open source mandatory components are the technical guarantee that sovereignty is real and not merely claimed.
 
-Article V  Corporate AI Governance
+## Article V  Corporate AI Governance
+
 Enterprises deploying AI agents bear full governance responsibility for every agent they operate.
 
 | § | Right and Obligation |
@@ -126,7 +133,8 @@ Enterprises deploying AI agents bear full governance responsibility for every ag
 | 5.6 | An organization may not use AI agents to conduct any activity that would be unlawful if performed by a human employee, including anti-competitive intelligence gathering, regulatory evasion, employment discrimination, or market manipulation. |
 | 5.7 | Full whistleblower protections under applicable national law apply to any employee who reports organizational AI misuse in good faith. Retaliation against such an employee is prohibited. |
 
-Article VI  Identity, Lifecycle, and Jurisdiction
+## Article VI  Identity, Lifecycle, and Jurisdiction
+
 An agent's identity follows its owner through every transition in life, employment, and circumstance.
 
 | § | Right and Obligation |
@@ -139,7 +147,8 @@ An agent's identity follows its owner through every transition in life, employme
 | 6.6 | No government, court, or regulatory authority may permanently destroy an individual's agent and its memory without due process fully equivalent to that applicable to the seizure and destruction of physical property, including the right to appeal and the right to independent legal representation. |
 | 6.7 | Where an agent owner and an employing organization are in different national jurisdictions, the law governing the owner's rights under this Bill of Rights is determined first by the terms of the employment or service contract. Where the contract is silent on this matter, the law of the jurisdiction in which the owner's personal AI agent is registered and domiciled applies by default. No organization may select a jurisdiction of incorporation or operation specifically to avoid obligations under this document. |
 
-Article VII  Labor Rights and the AI Dividend
+## Article VII  Labor Rights and the AI Dividend
+
 The productivity gains of AI belong to society as well as to the organizations that generate them.
 
 The engagement of a person together with their personal AI agent represents a new form of human contribution to the economy one in which individual productivity is multiplied without diminishing individual accountability or ownership. These rights establish that this new form of work is recognized, protected, and rewarded fairly.
@@ -152,12 +161,13 @@ The engagement of a person together with their personal AI agent represents a ne
 | 7.4 | Gig economy workers, independent contractors, and platform workers retain the same AI displacement protections as full-time employees. The classification of a worker as independent or self-employed may not be used to circumvent these protections. |
 | 7.5 | Income generated through an owner's personal AI agent, whether within an employment relationship or independently, is attributed to the owner for all tax, labor, social security, and social contribution purposes. The operation of a personal agent for economic activity constitutes lawful work by the owner. |
 
-Article VIII  Children, Vulnerable Persons, and Equity
+## Article VIII  Children, Vulnerable Persons, and Equity
+
 The most vulnerable members of society receive the strongest protections and the fullest access.
 
 AI systems trained on biased data and deployed without equity safeguards have demonstrably harmed children, people with disabilities, economically marginalized communities, and racial minorities. These rights are a direct response to documented harms, not precautionary provisions.
 
-Definition: Consequential Decision
+### Definition: Consequential Decision
 
 For the purposes of this Article, a consequential decision is any decision that materially affects a person's rights, livelihood, physical safety, legal status, or access to essential services. This includes decisions relating to credit, employment, housing, healthcare, education, insurance, and criminal justice. It extends to any other domain where an AI system's output determines or significantly influences an outcome in one of these areas. The competent national authority responsible for AI regulation in each jurisdiction shall publish and maintain updated guidance on which additional domains qualify.
 
@@ -244,7 +254,8 @@ This Bill of Rights shall be subject to a full public review every three years f
 
 All contributors to this document are acknowledged in the changelog of the OSARA GitHub repository maintained by Open Source United.
 
-How to Contribute
+### How to Contribute
+
 This document is released under CC BY 4.0. It may be freely adapted for national or regional implementation, provided Open Source United is credited as the origin. Proposals for amendment are submitted via public RFC on the OSU Gitlab repository opensource.unicc.org , subject to a 60-day public comment period.
 
 AI Bill of Rights v1.0 — Copyright © 2026 Open Source United — CC BY 4.0 — March 2026

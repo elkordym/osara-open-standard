@@ -2,7 +2,6 @@
 
 > Source: OSARA_v0.3_Specification.docx
 
-
 OSARA
 
 Open Sovereign Agent Reference Architecture
@@ -85,10 +84,12 @@ Every OSARA agent must be cryptographically bound to a government-recognized ide
 | E-Agent (Enterprise) | Government-issued entity identifier used for tax or registration purposes (EIN, VAT ID, Company Registration Number, or jurisdictional equivalent). | The entity ID hash is embedded in the GIAC. The GCA validates the entity is in good legal standing before issuance. |
 | G-Agent (Government) | Official government entity registration identifier per constitutional or statutory authority. | Cross-border G-Agent interactions require bilateral OSARA treaty validation of identity anchors. |
 
-Jurisdiction Flexibility
+### Jurisdiction Flexibility
+
 OSARA deliberately does not mandate a specific government ID type (such as a Social Security Number). Each country's national OSARA implementation authority determines which government-recognized credentials are acceptable identity anchors within their jurisdiction. This allows democracies, federal systems, and countries with different ID frameworks to implement OSARA without being forced into a single identity model.
 
-Privacy Protection
+### Privacy Protection
+
 The raw identity credential is NEVER stored in the GIAC, in any log, or transmitted in any message. Only a one-way SHA-3-256 hash combined with a government-issued salt is embedded. The original credential cannot be reverse-engineered from the hash.
 
 ## 4.2 Physical Owner Authorization — Tamper-Proof Access Control
@@ -188,7 +189,8 @@ The Portable Memory Store holds the agent's knowledge about its owner, learned c
 | PMS-05 | Memory store must maintain a versioned changelog so the owner can audit what the agent has learned and when |
 | PMS-06 | No third party — including AI model providers and cloud hosts — may access, train on, or replicate the agent's memory without explicit, revocable owner consent encoded as a signed DAE token |
 
-Portability Guarantee
+### Portability Guarantee
+
 An OSARA-compliant P-Agent must be runnable on the owner's local machine, any OSARA-compatible PaaS provider, or a Community Agent Host — and migrated between them with zero loss of identity, memory, or skills. Agent behavior must be identical regardless of where it runs.
 
 ## 5.8 Physical Owner Authorization Module (POA)
@@ -211,7 +213,8 @@ Skills are the functional capabilities an agent acquires, builds, or is licensed
 | SKL-06 | Skill signatures must be verifiable by any party holding the owning agent's public key |
 | SKL-07 | An owner may explicitly grant execution rights for a signed skill to another agent via a signed DAE delegation token specifying: recipient agent ID, permitted invocation scope, and expiry. This enables legitimate skill sharing, licensing, and collaboration without silent copying. |
 
-On Skill Ownership and Law
+### On Skill Ownership and Law
+
 OSARA's skill signature mechanism establishes attribution and traceability within the ecosystem. It does not constitute a legal IP ownership declaration. Intellectual property rights over AI-assisted outputs vary by jurisdiction and are determined by applicable national and international law. Owners should seek legal advice in their jurisdiction regarding IP rights over agent-developed outputs.
 
 ## 6.2 Skill Inventory
@@ -462,7 +465,8 @@ OSARA was conceived and principally authored by the founder of Open Source Unite
 
 The specification has been developed under the governance of Open Source United, a Community of Practice of the United Nations, and reflects input from the global open source, privacy, and digital identity communities.
 
-Contributing
+### Contributing
+
 OSARA is a living specification. Contributions, corrections, and proposals are welcome via public RFC on the OSARA Gitlab repository opensource.unicc.org maintained by Open Source United. All contributors are acknowledged in the repository changelog.
 
 OSARA v0.3 — Copyright © 2026 Open Source United — CC BY 4.0 — March 2026
