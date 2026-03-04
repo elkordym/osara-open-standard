@@ -33,5 +33,7 @@ nav:
   - Release Process: RELEASE_PROCESS.md
   - GitHub Setup: GITHUB_SETUP.md
   - Specifications:
-      - OSARA v0.3 Draft: specs/osara-v0.3-draft.md
-      - AI Bill of Rights v1.0 Draft: specs/ai-bill-of-rights-v1.0-draft.md
+      - OSARA (Current): specs/osara/current.md
+      - OSARA v0.3 Draft.1: specs/osara/releases/v0.3-draft.1.md
+      - AI Bill of Rights (Current): specs/ai-bill-of-rights/current.md
+      - AI Bill of Rights v1.0 Draft.1: specs/ai-bill-of-rights/releases/v1.0-draft.1.md
