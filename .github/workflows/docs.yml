@@ -1,0 +1,24 @@
+name: Build Docs
+
+on:
+  push:
+    branches: [main, prerelease]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install MkDocs
+        run: pip install mkdocs
+
+      - name: Build site
+        run: mkdocs build --strict
