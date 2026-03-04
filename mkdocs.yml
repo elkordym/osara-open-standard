@@ -4,7 +4,22 @@ site_url: https://elkordym.github.io/osara-open-standard
 repo_url: https://github.com/elkordym/osara-open-standard
 docs_dir: docs
 theme:
-  name: mkdocs
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
 extra_css:
   - stylesheets/extra.css
 nav:
