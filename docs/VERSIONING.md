@@ -7,6 +7,15 @@
 - Stable: `vX.Y`
 - Clarification-only patch: `vX.Y.Z`
 
+## File Layout
+
+- Working drafts live at:
+  - `specs/osara/current.md`
+  - `specs/ai-bill-of-rights/current.md`
+- Immutable published snapshots live at:
+  - `specs/<document>/releases/<version>.md`
+- Git tags mirror release snapshots and are the authoritative release markers.
+
 ## Change Types
 
 - **Normative**: changes compliance or rights obligations
