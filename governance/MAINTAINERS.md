@@ -17,7 +17,7 @@
 - Keep the standard and rights text synchronized
 - Ensure transparent change rationale
 - Run regular release and consultation cycles
-- Approve all release promotions from `prerelease` to `main`
+- Approve all release promotions from the prerelease branch to the main branch
 
 ## Future Maintainers and Contributors
 
