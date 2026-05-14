@@ -1,11 +1,3 @@
----
-name: Spec change proposal
-about: Propose a normative or editorial standard change
-title: "[spec-change] "
-labels: ["spec-change"]
-assignees: []
----
-
 ## Affected Document
 
 - [ ] OSARA Overview (`specs/osara-overview/`)
@@ -30,5 +22,12 @@ Provide exact replacement text if possible.
 ## Impact Assessment
 
 - Compatibility:
-- Governance/legal:
-- Certification/testing:
+- Governance / legal:
+- Certification / testing:
+- Threat model / privacy implications:
+
+## IPR Acknowledgement
+
+By filing this proposal, you accept the OSARA [IPR Policy](../../governance/IPR_POLICY.md) for any contribution arising from it.
+
+/label ~"spec-change"
