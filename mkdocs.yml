@@ -6,7 +6,7 @@ docs_dir: docs
 copyright: Published by Open Source United, a Community of Practice of the United Nations.
 theme:
   name: material
-  logo: assets/branding/osara-logo.png
+  logo: assets/branding/osara-icon.png
   favicon: assets/branding/osara-icon.png
   features:
     - navigation.tabs
