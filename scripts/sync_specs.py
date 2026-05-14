@@ -6,6 +6,7 @@ Source layout (canonical):
 - governance/           (governance / policy documents)
 - community/            (CoC, Contributing)
 - assets/diagrams/      (canonical diagrams referenced from specs)
+- assets/branding/      (canonical OSARA logos, icons, and brand assets)
 - CHANGELOG.md          (repo-root changelog)
 
 Sync targets (gitignored build artifacts under docs/):
@@ -14,6 +15,7 @@ Sync targets (gitignored build artifacts under docs/):
 - docs/governance/
 - docs/community/
 - docs/assets/diagrams/
+- docs/assets/branding/
 - docs/CHANGELOG.md
 
 After copying, this script applies path rewrites to synced files so that
@@ -35,6 +37,7 @@ DIR_PAIRS = [
     (ROOT / "governance", ROOT / "docs" / "governance"),
     (ROOT / "community", ROOT / "docs" / "community"),
     (ROOT / "assets" / "diagrams", ROOT / "docs" / "assets" / "diagrams"),
+    (ROOT / "assets" / "branding", ROOT / "docs" / "assets" / "branding"),
 ]
 FILE_PAIRS = [
     (ROOT / "CHANGELOG.md", ROOT / "docs" / "CHANGELOG.md"),
