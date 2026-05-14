@@ -43,3 +43,7 @@ Use one of:
 2. Keep issue open for the announced window
 3. Summarize accepted/rejected points at closure
 4. Link decisions to pull requests and release notes
+
+## Local Documentation Build (Contributors Only)
+
+If you are editing specification or governance text and want to preview the rendered site before opening a pull request, follow the instructions in [`docs/SITE_BUILD.md`](../docs/SITE_BUILD.md) (contributor-only build notes).

@@ -1,5 +1,5 @@
 site_name: OSARA Open Standard
-site_description: Open Sovereign Agent Reference Architecture and AI Bill of Rights
+site_description: Open Sovereign Agent Reference Architecture and AI Bill of Rights — published by Open Source United
 site_url: https://elkordym.github.io/osara-open-standard
 repo_url: https://github.com/elkordym/osara-open-standard
 docs_dir: docs
@@ -25,15 +25,39 @@ extra_css:
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
-  - Governance: governance.md
-  - Branching Strategy: BRANCHING_STRATEGY.md
-  - Community Communication: COMMUNITY_COMMUNICATION.md
-  - Roadmap: ROADMAP.md
-  - Versioning: VERSIONING.md
-  - Release Process: RELEASE_PROCESS.md
-  - GitHub Setup: GITHUB_SETUP.md
+  - Overview & Concepts:
+      - OSARA Overview (Current): specs/osara-overview/current.md
+      - OSARA Overview v0.4 Draft.1: specs/osara-overview/releases/v0.4-draft.1.md
   - Specifications:
-      - OSARA (Current): specs/osara/current.md
+      - OSARA Specification (Current): specs/osara/current.md
+      - OSARA v0.4 Draft.1: specs/osara/releases/v0.4-draft.1.md
       - OSARA v0.3 Draft.1: specs/osara/releases/v0.3-draft.1.md
       - AI Bill of Rights (Current): specs/ai-bill-of-rights/current.md
+      - AI Bill of Rights v1.1 Draft.1: specs/ai-bill-of-rights/releases/v1.1-draft.1.md
       - AI Bill of Rights v1.0 Draft.1: specs/ai-bill-of-rights/releases/v1.0-draft.1.md
+      - Specs Layout README: specs/README.md
+  - Companion Documents:
+      - OSARA Threat Model (Current): specs/osara-threat-model/current.md
+      - OSARA Threat Model v0.4 Draft.1: specs/osara-threat-model/releases/v0.4-draft.1.md
+      - OSARA Privacy Considerations (Current): specs/osara-privacy/current.md
+      - OSARA Privacy Considerations v0.4 Draft.1: specs/osara-privacy/releases/v0.4-draft.1.md
+  - Governance:
+      - Overview: governance.md
+      - Charter: governance/CHARTER.md
+      - IPR Policy: governance/IPR_POLICY.md
+      - Maintainers: governance/MAINTAINERS.md
+      - Implementation Report Template: governance/IMPLEMENTATION_REPORT_TEMPLATE.md
+      - Liaisons: governance/LIAISONS.md
+      - Decision Record Template: governance/DECISION_RECORD_TEMPLATE.md
+      - Branching Strategy: BRANCHING_STRATEGY.md
+      - Versioning: VERSIONING.md
+      - Release Process: RELEASE_PROCESS.md
+      - Community Communication: COMMUNITY_COMMUNICATION.md
+  - Community:
+      - Code of Conduct: community/CODE_OF_CONDUCT.md
+      - Contributing: community/CONTRIBUTING.md
+      - Local Documentation Build (Contributors): SITE_BUILD.md
+  - Roadmap: ROADMAP.md
+  - Errata: errata.md
+  - Public Comments Register: comments-register.md
+  - Changelog: CHANGELOG.md

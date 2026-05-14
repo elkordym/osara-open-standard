@@ -12,3 +12,15 @@ Thumbs.db
 
 # Local source documents
 *.docx
+
+# Resources folder (presentations, working files, docx conversion scratch)
+_resources/
+
+# Build artifacts written by scripts/sync_specs.py — do not commit.
+# Canonical sources for these live at specs/, governance/, community/, assets/diagrams/,
+# and CHANGELOG.md at the repo root.
+docs/specs/
+docs/assets/diagrams/
+docs/governance/
+docs/community/
+docs/CHANGELOG.md
