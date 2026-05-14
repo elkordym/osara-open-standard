@@ -25,7 +25,7 @@ The time to define these rules is now, before private-sector defaults become the
 ## Leadership
 
 - **Primary Author / Lead Maintainer**: Mostafa M. Elkordy (`@elkordym`)
-- **Chair, Open Source United (UN Open Source Community of Practice)**: Mostafa M. Elkordy (`@elkordym`)
+- **Co-Chair, Open Source United (UN Open Source Community of Practice)**: Mostafa M. Elkordy (`@elkordym`)
 - **Contributors**: see [`AUTHORS.md`](AUTHORS.md) and the OSU public RFC process
 
 ## Repository Structure

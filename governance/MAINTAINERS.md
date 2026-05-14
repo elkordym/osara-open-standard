@@ -2,14 +2,14 @@
 
 ## Current Leadership
 
-- **Primary Author**: `@elkordym` (replace with preferred full name if different)
-- **Chair, Open Source United (UN Open Source Community of Practice)**: `@elkordym`
-- **Lead Maintainer**: final release approval, roadmap coordination, and release approval
+- **Primary Author**: Mostafa M. Elkordy (`@elkordym`)
+- **Co-Chair, Open Source United (UN Open Source Community of Practice)**: Mostafa M. Elkordy
+- **Lead Maintainer**: Mostafa M. Elkordy
 
 ## Maintainer Roles
 
-- **Editor Maintainer**: language consistency and structure quality
-- **Community Maintainer**: issue triage and public consultation process
+- **Editor Maintainer**: language consistency and structure quality.
+- **Community Maintainer**: issue triage and public consultation process.
 
 ## Responsibilities
 
@@ -25,8 +25,6 @@ Additional maintainers and contributors from the Open Source United community wi
 
 ## Contact
 
-Replace this section with your public contact channels:
-
-- Email:
-- GitHub Discussions:
-- Matrix/Discord/Forum:
+- **Email**: [elkordy@unicc.org](mailto:elkordy@unicc.org)
+- **LinkedIn**: [Mostafa Elkordy](https://www.linkedin.com/in/mostafa-elkordy-msc-mba-cissp-gcsa-698724b/)
+- **GitHub**: [`@elkordym`](https://github.com/elkordym)

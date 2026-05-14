@@ -288,7 +288,7 @@ The following table maps each Article of this Bill of Rights to the correspondin
 
 *This section is informative.*
 
-The AI Bill of Rights was conceived and principally authored by the founder of Open Source United, whose vision for a human-centered, sovereign, and equitable AI future — including the original formulation of the person-and-agent employment model established in Article II — forms the intellectual foundation of this document.
+The AI Bill of Rights was principally authored by Mostafa M. Elkordy, Co-Chair of Open Source United, whose work on a human-centered, sovereign, and equitable AI future — including the original formulation of the person-and-agent employment model established in Article II — forms the intellectual foundation of this document.
 
 This document is published as a companion to OSARA v0.4 and is designed to be implemented in conjunction with it. Where this Bill of Rights establishes a right, OSARA provides the technical mechanism to enforce it.
 
