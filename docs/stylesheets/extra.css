@@ -45,3 +45,13 @@ thead th {
   background: #f3f4f6;
   font-weight: 700;
 }
+
+/* Keep the public footer focused on OSARA publication identity. */
+.md-footer-meta__inner {
+  justify-content: center;
+}
+
+.md-copyright {
+  width: 100%;
+  text-align: center;
+}
