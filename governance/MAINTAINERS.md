@@ -2,9 +2,9 @@
 
 ## Current Leadership
 
-- **Primary Author**: Mostafa M. Elkordy (`@elkordym`)
-- **Co-Chair, Open Source United (UN Open Source Community of Practice)**: Mostafa M. Elkordy
-- **Lead Maintainer**: Mostafa M. Elkordy
+- **Primary Author**: Mostafa M. Elkordy (`@elkordym`), UNICC
+- **Co-Chair, Open Source United (UN Open Source Community of Practice)**: Mostafa M. Elkordy, UNICC
+- **Lead Maintainer**: Mostafa M. Elkordy, UNICC
 
 ## Maintainer Roles
 

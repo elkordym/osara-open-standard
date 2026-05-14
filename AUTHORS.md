@@ -2,11 +2,11 @@
 
 ## Primary Authorship
 
-- **Primary Author**: Mostafa M. Elkordy
+- **Primary Author**: Mostafa M. Elkordy, UNICC
 
 ## Project Leadership
 
-- **Co-Chair, Open Source United (UN Open Source Community of Practice)**: Mostafa M. Elkordy
+- **Co-Chair, Open Source United (UN Open Source Community of Practice)**: Mostafa M. Elkordy, UNICC
 - **Chair, Open Source United (UN Open Source Community of Practice)**: Omar Mohsin, OICT
 - **Vice Chair, Open Source United (UN Open Source Community of Practice)**: David Manset, ITU
 - **Lead Maintainer**: Mostafa M. Elkordy, Sr. Cybersecurity Solutions Officer, UNICC
