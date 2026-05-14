@@ -1,0 +1,51 @@
+# GitLab CI/CD pipeline for the OSARA Standards Family repository.
+#
+# Mirrors the GitHub Actions in .github/workflows/ for the planned migration
+# to https://opensource.unicc.org. Builds the MkDocs site on every push and
+# deploys to GitLab Pages from the `main` branch.
+
+stages:
+  - build
+  - deploy
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+default:
+  image: python:3.11-slim
+  cache:
+    key:
+      files:
+        - requirements-docs.txt
+    paths:
+      - .cache/pip
+      - .venv
+
+before_script:
+  - python -m pip install --upgrade pip
+  - pip install -r requirements-docs.txt
+
+build_docs:
+  stage: build
+  script:
+    - python scripts/sync_specs.py
+    - mkdocs build --strict --site-dir public
+  artifacts:
+    paths:
+      - public
+    expire_in: 1 week
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+    - if: $CI_COMMIT_BRANCH == "prerelease"
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+
+pages:
+  stage: deploy
+  script:
+    - python scripts/sync_specs.py
+    - mkdocs build --strict --site-dir public
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
