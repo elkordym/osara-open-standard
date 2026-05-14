@@ -2,7 +2,7 @@ name: Deploy Docs to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [main, prerelease]
   workflow_dispatch:
 
 permissions:
@@ -12,34 +12,70 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
     if: ${{ github.event.repository.private == false }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout release branch
         uses: actions/checkout@v4
+        with:
+          ref: main
+          path: release-src
+
+      - name: Checkout editor's draft branch
+        uses: actions/checkout@v4
+        with:
+          ref: prerelease
+          path: draft-src
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install docs dependencies
-        run: pip install -r requirements-docs.txt
+      - name: Install documentation dependencies
+        run: pip install -r release-src/requirements-docs.txt
 
-      - name: Sync spec files into docs
-        run: python scripts/sync_specs.py
+      - name: Build release site
+        working-directory: release-src
+        run: |
+          python scripts/sync_specs.py
+          mkdocs build --strict --site-dir ../release-out
 
-      - name: Build MkDocs site
-        run: mkdocs build --strict
+      - name: Patch editor's draft site URL
+        working-directory: draft-src
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path("mkdocs.yml")
+          text = p.read_text(encoding="utf-8")
+          text = text.replace(
+              "site_url: https://elkordym.github.io/osara-open-standard",
+              "site_url: https://elkordym.github.io/osara-open-standard/next/",
+          )
+          p.write_text(text, encoding="utf-8")
+          PY
+
+      - name: Build editor's draft site
+        working-directory: draft-src
+        run: |
+          python scripts/sync_specs.py
+          mkdocs build --strict --site-dir ../draft-out
+
+      - name: Compose combined site tree
+        run: |
+          mkdir -p combined
+          cp -R release-out/. combined/
+          mkdir -p combined/next
+          cp -R draft-out/. combined/next/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: combined
 
   deploy:
     if: ${{ github.event.repository.private == false }}
