@@ -1,7 +1,7 @@
 # OSARA Open Standard
 
 <p align="center">
-  <img src="assets/branding/osara-logo.png" alt="OSARA balance scale logo with three human figures, a microchip, and olive branches" width="380">
+  <img src="assets/branding/osara-logo.png" alt="OSARA logo with a human holding a computer agent" width="380">
 </p>
 
 <p align="center"><em>Balance between humans and machines. Sovereignty by design. Open by mandate.</em></p>
