@@ -1,5 +1,11 @@
 # OSARA Open Standard
 
+<p align="center">
+  <img src="assets/branding/osara-logo.png" alt="OSARA logo with a human holding a computer agent" width="380">
+</p>
+
+<p align="center"><em>Balance between humans and machines. Sovereignty by design. Open by mandate.</em></p>
+
 This site publishes working drafts and governance material for the **OSARA Standards Family**, produced by [Open Source United](https://opensource.unicc.org/) — a Community of Practice of the United Nations.
 
 ## The Standards Family
